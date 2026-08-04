@@ -8,7 +8,7 @@ function urlBuilder(number){
 
     return `./images/heros/card${number}.jpeg`
 }
-
+console.log("Teste")
 let card = new CardManager(urlBuilder)
 let board = new BoardManager("board", 50, card)
 
